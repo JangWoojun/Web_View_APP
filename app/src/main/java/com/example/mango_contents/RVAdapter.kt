@@ -1,11 +1,15 @@
 package com.example.mango_contents
 
+import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
+import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
 
-class RVAdapter (val List: MutableList<ContentModel>) : RecyclerView.Adapter<RVAdapter.ViewHolder>(){
+class RVAdapter (val context : Context , val List: MutableList<ContentModel>) : RecyclerView.Adapter<RVAdapter.ViewHolder>(){
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RVAdapter.ViewHolder {
         val v = LayoutInflater.from(parent.context).inflate(R.layout.rv_item,parent,false)
 
@@ -22,7 +26,13 @@ class RVAdapter (val List: MutableList<ContentModel>) : RecyclerView.Adapter<RVA
 
     inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
         fun blinItem(item : ContentModel){
+            val rvimg = itemView.findViewById<ImageView>(R.id.rvimg)
+            val rvtext = itemView.findViewById<TextView>(R.id.rvtext)
 
+            rvtext.text = item.titleText
+            Glide.with(context)
+                .load(item.titleImageUrl)
+                .into(rvimg)
         }
     }
 }
