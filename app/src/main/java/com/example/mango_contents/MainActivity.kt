@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
         items.add(
             ContentModel(
                 "https://www.mangoplate.com/restaurants/VdkLLgPWWaCe",
-                "https://www.mangoplate.com/restaurants/VdkLLgPWWaCe",
+                "https://mp-seoul-image-production-s3.mangoplate.com/1841276_1649592947606927.jpg?fit=around|512:512&crop=512:512;*,*&output-format=jpg&output-quality=80",
                 "필구커피"
             )
         )
@@ -61,14 +61,14 @@ class MainActivity : AppCompatActivity() {
         items.add(
             ContentModel(
                 "https://www.mangoplate.com/restaurants/Y8rBeDQx300W",
-                "https://www.mangoplate.com/restaurants/Y8rBeDQx300W",
+                "https://mp-seoul-image-production-s3.mangoplate.com/337678/570339_1600079149341_33170",
                 "햇살머무는식탁"
             )
         )
         items.add(
             ContentModel(
                 "https://www.mangoplate.com/restaurants/OybhNJprdbjV",
-                "https://www.mangoplate.com/restaurants/OybhNJprdbjV",
+                "https://mp-seoul-image-production-s3.mangoplate.com/617296_1590073813316973.jpg?fit=around|512:512&crop=512:512;*,*&output-format=jpg&output-quality=80",
                 "히카리우동"
             )
         )
