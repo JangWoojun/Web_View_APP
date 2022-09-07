@@ -4,21 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity"
+    tools:context=".JoinActivity"
     android:orientation="vertical">
 
     <EditText
+        android:id="@+id/emailArea"
         android:layout_margin="20dp"
         android:hint="email"
         android:layout_width="match_parent"
         android:layout_height="50dp"/>
     <EditText
+        android:id="@+id/passwordArea"
         android:layout_margin="20dp"
         android:hint="password"
         android:layout_width="match_parent"
         android:layout_height="50dp"/>
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/joinBTN"
         android:background="#ffd700"
         android:text="회원가입"
         android:layout_margin="20dp"
