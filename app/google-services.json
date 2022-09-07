@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "847821266074",
+    "project_id": "eunpyeong-project",
+    "storage_bucket": "eunpyeong-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847821266074:android:78d9644af41af9fb321323",
+        "android_client_info": {
+          "package_name": "com.example.mango_contents"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "847821266074-f5dq4d1a49dkde3immti3kj5grk89e3n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_tuzvgzuYiKZNjMeE78MZam7Jr2hAf40"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "847821266074-f5dq4d1a49dkde3immti3kj5grk89e3n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
