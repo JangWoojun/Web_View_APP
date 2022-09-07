@@ -138,7 +138,7 @@ class MainActivity : AppCompatActivity() {
         items.add(
             ContentModel(
                 "https://www.mangoplate.com/restaurants/ycHaFj1ZlG",
-                "https://mp-seoul-image-production-s3.mangoplate.com/350696/1523303_1630114603062_39848?fit=around|738:738&crop=738:738;*,*&output-format=jpg&output-quality=80",
+                "https://mp-seoul-image-production-s3.mangoplate.com/964639_1519228177603248.jpg?fit=around|512:512&crop=512:512;*,*&output-format=jpg&output-quality=80",
                 "벙구갈비"
             )
         )
